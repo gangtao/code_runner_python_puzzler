@@ -1,0 +1,5 @@
+a = b = 'western'
+a += 'addition'
+print a, b
+a = a + 'sf'
+print a, b

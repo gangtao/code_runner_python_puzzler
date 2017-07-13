@@ -1,0 +1,6 @@
+z = False
+i = []
+l = 0,
+c = None
+h = {}
+print any((z, i, l, c, h))

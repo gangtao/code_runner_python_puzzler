@@ -1,0 +1,8 @@
+def find_inverse(n):
+    inverse = 1
+    try:
+        inverse = 1 / k
+    finally:
+        return inverse
+fi = find_inverse
+print fi(-1) + fi(0) + fi(1)

@@ -1,0 +1,3 @@
+x = set([type(1), type(1L), type(1.0)])
+y = set([1.__class__, 1L.__class__, 1.0.__class__])
+print x == y

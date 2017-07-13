@@ -1,0 +1,6 @@
+multipliers = [lambda x: (i+1)*x for i in range(10)]
+
+def print_multiplication_table_for(number):
+	print [multiplier(number) 
+           for multiplier in multipliers]
+print_multiplication_table_for(2)

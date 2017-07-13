@@ -1,0 +1,9 @@
+class Parent:
+	x=1
+class Child1(Parent):
+	pass
+class Child2(Parent):
+	x=2
+class GrandChild(Child1, Child2):
+	pass
+print GrandChild.x

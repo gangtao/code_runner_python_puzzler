@@ -1,0 +1,6 @@
+user_id = 'a'
+try:
+	user_id = int(user_id)
+	print user_id
+except TypeError, ValueError:
+	print "Oops!"
